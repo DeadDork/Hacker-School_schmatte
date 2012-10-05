@@ -2,3 +2,5 @@ Codelings for Hacker School
 ===========================
 
 This is a bunch of code for Hacker School. It's meant to be audited by other HS-ers. It's not meant to actually be useful.
+
+Pretty much, this is just code examples & tests I'm using to learn stuff like c & python, etc.
