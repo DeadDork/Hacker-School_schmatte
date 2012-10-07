@@ -1,6 +1,14 @@
 Codelings for Hacker School
 ===========================
 
-This is a bunch of code for Hacker School. It's meant to be audited by other HS-ers. It's not meant to actually be useful.
+I am currently attending [Hacker School](http://wwww.hackerschool.com) in New York. It's an amazing opportunity, a real dream-come-true, as it provides me with the opportunity to do nothing but code those programs I've been dreaming about hacking for years.
 
-Pretty much, this is just code examples & tests I'm using to learn stuff like c & python, etc.
+However, before you can run, you must first know how to walk; and before you can walk, you must first know how to crawl.
+
+Accordingly, I'm building myself up for the bigger projects by hacking the exercises from K & R, the Perl Book, etc.
+
+And that's what this repo contains: my solutions to coding exercises, programming experiments to test certain aspects of a given language, etc.
+
+Nothing here is terribly innovative nor interesting.
+
+Consider yourself warned off!
