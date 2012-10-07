@@ -4,7 +4,7 @@ int main() {
 	int c;
 
 	while((c = getchar()) != EOF) {
-		if (c != 10) {
+		if (c != '\n') {
 			printf("char = %c\n", c);
 			printf("int = %d\n\n", c);
 		}
