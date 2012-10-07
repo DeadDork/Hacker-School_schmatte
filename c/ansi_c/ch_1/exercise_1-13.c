@@ -14,7 +14,6 @@ int main() {
 	}
 
 	while ((c = getchar()) != EOF) {
-		++nc;
 		if (c == ' ' || c == '\n' || c == '\r' || c == '\t') {
 			if (state == IN) {
 				if (nc < 81) {
@@ -26,15 +25,16 @@ int main() {
 			state = OUT;
 			nc = 0;
 		} else {
+			++nc;
 			if (state == OUT) {
 				state = IN;
 			}
 		}
 	}
 
-	for (i = 0; i < 81; ++i) {
+	for (i = 1; i < 81; ++i) {
 		printf("Word length = %-10d: ", i);
-		for (j = 0; j <= word_length[i]; ++j) {
+		for (j = 0; j <= word_length[i - 1]; ++j) {
 			printf("|");
 		}
 		printf("\n");
