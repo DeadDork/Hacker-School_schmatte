@@ -1,6 +1,5 @@
-/* This program is a refactoring of example 8.5.
- * It's obvious that I've taken quite a few liberties
- * with the original code. */
+/* This program is a refactoring of example 5, chapter 8,
+ * from the TLDP NCURSES Programming HOWTO. */
 
 #include <ncurses.h>
 #include <stdlib.h>
