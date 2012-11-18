@@ -1,5 +1,6 @@
 /* This program is a refactoring of example 8.5.
- * It's obvious that I've taken quite a few liberties. */
+ * It's obvious that I've taken quite a few liberties
+ * with the original code. */
 
 #include <ncurses.h>
 #include <stdlib.h>
@@ -73,27 +74,25 @@ void mod_font( int c_ch )
 	addch( c_ch | A_BOLD );
 }
 
-//}}}
-
 ////////////////////////////////////////////////////////////////////////////////
 // Main
 ////////////////////////////////////////////////////////////////////////////////
 
 int main( int argc, char *argv[] )
 { 
-	int t_r = 0; // Total row number.
-	int t_c = 0; // Total column number.
-	int c_r = 0; // Current row number.
-	int c_c = 0; // Current column number.
+	int t_r; // Total row number.
+	int t_c; // Total column number.
+	int c_r; // Current row number.
+	int c_c; // Current column number.
 
 	int pp_ch = '\0'; // Previous previous character.
 	int p_ch = '\0'; // Previous character.
-	int c_ch = '\0'; // Current character.
-	int n_ch = '\0'; // Next character.
+	int c_ch; // Current character.
+	int n_ch; // Next character.
 
 	FILE *p_f; // Pointer to file.
 
-	struct comment c_t_s = { 0, 0 }; // Comment type states.
+	struct comment c_t_s = { 0, 0 }; // Comment type boolean states.
 
 	if ( ( p_f = fopen( argv[ 1 ], "r" ) ) == NULL )
 		u_err( argv );
