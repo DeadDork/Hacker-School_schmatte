@@ -50,6 +50,7 @@ void page_end()
 	getch();
 	clear();
 	move( 0, 0 );
+	refresh();
 }
 
 int in_comment( struct comment *p_c, int pp_ch, int p_ch, int c_ch, int n_ch )
@@ -108,10 +109,7 @@ int main( int argc, char *argv[] )
 
 		getyx( stdscr, c_r, c_c );
 		if ( c_r == t_r - 1 )
-		{
 			page_end();
-			refresh();
-		}
 
 		if ( in_comment( &c_t_s, pp_ch, p_ch, c_ch, n_ch ) == 1 )
 			mod_font( c_ch );
