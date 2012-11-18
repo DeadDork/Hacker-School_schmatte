@@ -1,0 +1,12 @@
+Why I'm learning JavaScript
+===========================
+
+I feel that I need to address this question, given how much everyone disparages JS.
+
+I am very interested in apps for iOS, Android, Google cloud apps, and Windows 8. I think that they are all incredibly fascinating technology platforms from user point of view, and I'd love to play with them.
+
+Also, I'd love to do some website stuff.
+
+So JavaScript is important.
+
+And eve
