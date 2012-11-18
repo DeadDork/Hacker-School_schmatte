@@ -1,0 +1,4 @@
+NCURSES Tutorial Exercises
+==========================
+
+This directory houses the programs I wrote while learning NCURSES using the [NCURSES TLDP tutorial](http://www.tldp.org/HOWTO/NCURSES-Programming-HOWTO/index.html).
